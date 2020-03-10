@@ -1,12 +1,7 @@
-	body{
+body{
 	font:15px/1.5 Arial, Helvetica,sans-serif;
 	padding: 0px;
-
-	<style>
-body {
-  background-color:#008080;
-}
-</style>
+	background-color:#f4f3f3;
 }
 
 .container{
@@ -55,7 +50,7 @@ header h2{
 .resultss{
 	border-radius: 15px 50px;
     background: #345fe4;
-    padding: 20px;
+    padding: 20px; 
     width: 200px;
     height: 150px;
 }
