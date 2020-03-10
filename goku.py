@@ -59,7 +59,7 @@ def predict():
 		my_prediction = clf.predict(vect)
 	return render_template('result.html',prediction = my_prediction)
 
-app1 = Flask(__name__)
+app = Flask(__name__)
 
 @app.route('/')
 def index():
@@ -78,4 +78,3 @@ def square():
 
 if __name__ == '__main__':
    app.run(debug=True)
-   app1.run(debug=True)
