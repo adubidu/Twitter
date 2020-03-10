@@ -59,8 +59,6 @@ def predict():
 		my_prediction = clf.predict(vect)
 	return render_template('result.html',prediction = my_prediction)
 
-app = Flask(__name__)
-
 @app.route('/')
 def index():
 	return render_template('return.html')
